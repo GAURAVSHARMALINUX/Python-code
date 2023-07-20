@@ -1,6 +1,16 @@
-# Ericsson-Python-code
- Test Project assign by Linus and create Binary of that source code
-This Document will describe how you can execute this binary in your Machine.
+# Python program to create ssh tunnel (works as hop server) ##
 
-Dependencies: 
-To execute this 
+This Python code create an hop server to bypass the ssh connection between two linux machine/server.
+This program has few dependencies to install dependencies use follow the below installation method.
+### Dependencies: 
+==> Python3 interpreter means python version 3 must be installed in your machine.
+
+==> Some python modules need to be install using pip or pip3 command(depends upon your current installation)
+* paramiko
+* sshtunnel
+* getpass
+
+Run this Command "pip install -r requirements.txt"
+
+
+***
